@@ -1,0 +1,14 @@
+{
+  "author": "Raymond Ie <ie.raymond@gmail.com>",
+  "name": "permcomb",
+  "description": "Basic permutation and combination generator",
+  "keywords":[ "permutation","combination","combo" ],
+  "version": "0.0.1",
+  "main": "./lib/PermComb",
+  "dependencies": {},
+  "devDependencies": {},
+  "optionalDependencies": {},
+  "engines": {
+    "node": "*"
+  }
+}
