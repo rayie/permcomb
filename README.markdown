@@ -12,8 +12,12 @@ npm install permcomb
 
 Usage
 -----
+var PC = require("permcomb");
 
-**permtuate( arr, n, callback )**
+
+
+
+**PC.permutate( arr, n, callback )**
 
 
 Generates permutations (no repetition) from an array.
@@ -32,7 +36,7 @@ function(err, result){
 `
 
 
-**combinate( arr, n, callback )**
+**PC.combinate( arr, n, callback )**
 Same as permutate, but returns all possible combination, duplicate elements in arr are treated as unique
 
 
