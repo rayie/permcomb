@@ -1,8 +1,23 @@
+Description
+-----------
+
+Barebones, asynchronous node.js permutation and combination generator
+
+
+Installation
+------------
+
+npm install permcomb
+
+
+Usage
+-----
+
 **permtuate( arr, n, callback )**
 
 
 Generates permutations (no repetition) from an array.
-Returns an array of arrays, each inner array being a permutation of arr
+Returns an array of arrays, each inner array being a permutation of arr. Duplicate elements in array are treated as unique.
 
 arr - required array of anything, or string
 
