@@ -3,8 +3,11 @@
 
 Generates permutations (no repetition) from an array.
 Returns an array of arrays, each inner array being a permutation of arr
+
 arr - required array of anything, or string
+
 n - optional number of choices out of set arr, defaults to arr.length
+
 callback - optional, defaults to:
 
 `
